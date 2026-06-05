@@ -1,19 +1,19 @@
 cask "yames" do
-  version "0.9.0"
+  version "1.0.0"
 
   on_arm do
     url "https://github.com/turutupa/yames/releases/download/v#{version}/Yames_#{version}_aarch64.dmg"
-    sha256 "a30f0b449c446b6faadeb600756f687ea2cbd2ac52d8a8f8e477e577308be7c3"
+    sha256 "35e715c8dcc36fc08859f21052ea7f464f835790b2ffa9c8b860f6bd3a630fff"
   end
 
   on_intel do
     url "https://github.com/turutupa/yames/releases/download/v#{version}/Yames_#{version}_x64.dmg"
-    sha256 "005128bb83d74918457f0b0cbbccd15d559e30539590e50e62cf58f838312d61"
+    sha256 "db681b801094e7ea4cb3da667d168ef07ad9385376182c291728f9222474eb5d"
   end
 
   name "Yames"
   desc "Yet Another Metronome Everyone Skips — musician-grade floating metronome"
-  homepage "https://turutupa.github.io/yames/"
+  homepage "https://yames.app"
 
   livecheck do
     url :url
