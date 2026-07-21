@@ -1,14 +1,14 @@
 cask "yames" do
-  version "1.0.2"
+  version "1.0.3"
 
   on_arm do
     url "https://github.com/turutupa/yames/releases/download/v#{version}/Yames_#{version}_aarch64.dmg"
-    sha256 "cbe5a5586602b99470bfc31f13dc66d83757f695e697c5b3bab12b9df14b3b7c"
+    sha256 "a5bf1c05e8000a412e6ea22347683bd97dd84df3490286f9208de4ba5058a1c8"
   end
 
   on_intel do
     url "https://github.com/turutupa/yames/releases/download/v#{version}/Yames_#{version}_x64.dmg"
-    sha256 "e11560c69eabaa11a71c4238d0780100b0e22564961ece6362114255726a61b2"
+    sha256 "7960f00f675c0b6b2e5bea81e6816bf1c09978bdaf7a9ce749f77b0fd48fd5f6"
   end
 
   name "Yames"
